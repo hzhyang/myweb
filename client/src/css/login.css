@@ -1,0 +1,158 @@
+.left ul{
+    margin-bottom: 35px;
+    height: 33px;
+}
+.left>ul li{
+    width: 180px;
+    height: 33px;
+    float: left;
+    font-size: 14px;
+    background: #fafafa;
+    border-left:1px solid #e6e6e6;
+    border-bottom:1px solid #e6e6e6;
+    line-height: 33px;
+    text-align: center;
+    cursor: pointer;
+}
+.left>ul li a{
+    color: #666;
+    display:inline-block;
+    width: 100%;
+    height: 100%;
+}
+.left>ul span{
+    display: block;
+    float: left;
+    color: #999;
+    width: 180px;
+    height: 34px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 34px;  
+}
+.login_input li{
+    margin:  0 auto;
+    width: 262px;
+    height: 32px;
+    position: relative;
+}
+.login_input li em{
+    position: absolute;
+    display: inline-block;
+    right: 27px;
+    top:8px;
+    color:red;
+    height: 15px;
+    padding-left: 18px;
+    display: none;
+    background: url("../img/lg-ico.png") 0 1px no-repeat;
+}
+.login_input li input{
+    width: 260px;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding-left: 6px;
+    
+}
+.login_input li{
+    position: relative;
+}
+
+#uname+span{
+    position: absolute;
+    right:6px;
+    top:7px;
+    width: 14px;
+    height: 15px;
+    background: url("../img/lg-ico.png") 0 -23px;
+}
+.login_input .pass_li{
+    margin: 19px auto 30px auto;
+}
+#pass+span{
+    position: absolute;
+    right:6px;
+    top:7px;
+    width: 14px;
+    height: 15px;
+    background: url("../img/lg-ico.png") 0 -57px;
+}
+.login_input label input{
+    width: 13px;
+    height: 13px;
+    border:1px solid #ccc
+}
+label span{
+    padding-left: 4px;
+    color: #99a6b3;
+}
+.reber_li a{
+    color:blue;
+    display: inline-block;
+    margin-left: 34px;
+    line-height: 1em;
+}
+.reber_li a:hover{
+    color: red;
+}
+.login_input .btn_li{
+    width: 262px;
+    height: 37px;
+    background:  #e1063c;
+    text-align: center;
+    line-height: 37px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn_li:hover{
+    background: #cc0033;
+}
+input::-webkit-input-placeholder { 
+    /* WebKit browsers */ 
+   color: #c6c6c6; 
+   } 
+   input:-moz-placeholder, textarea:-moz-placeholder { 
+   /* Mozilla Firefox 4 to 18 */ 
+   color: #c6c6c6; 
+   } 
+   input::-moz-placeholder, textarea::-moz-placeholder { 
+    /* Mozilla Firefox 19+ */ 
+   color: #c6c6c6; 
+   } 
+   input:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+    /* Internet Explorer 10+ */ 
+   color: #c6c6c6; 
+   } 
+   .cooper_text{
+       display: inline-block;
+       margin-left: 52px;
+       color: #666;
+       height: 11px;
+       line-height: 1em;
+       margin-top: 46px;
+       float: left;
+   }
+   .cooper{
+       float: left;
+   }
+   .cooper a{
+       display: inline-block;
+       width: 16px;
+       height: 17px;
+       margin-top: 44px;
+       margin-right: 5px;
+       background: url("../img/lg-icons.png") no-repeat;
+   }
+   .cooper a:nth-child(1){
+       background-position-y: -16px;
+   }
+   .cooper a:nth-child(2){
+    background-position-y: 1px;
+    }
+    .cooper a:nth-child(3){
+        background-position-y: -33px;
+    }
+    .cooper a:nth-child(4){
+        background-position-y: -101px;
+    }
